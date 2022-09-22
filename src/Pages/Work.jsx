@@ -1,5 +1,5 @@
 import React from 'react'
-import Mbwira from '../Components/Buttons/Mbwira'
+// import Mbwira from '../Components/Buttons/Mbwira'
 import Portifolio from '../Section/Portifolio'
 import Testimony from '../Section/Testimony'
 import Footer from '../Section/Footer'
@@ -22,7 +22,7 @@ const Work = () => {
         xl:text-8xl xl:w-2/3'>We seek to earn love from our client</h1>
         <p className='text-slate-400 mt-5'>Here are few project  we've done for our Clients</p>
         <button className="my-10"><NextButton/></button>
-        <Mbwira/>
+//         <Mbwira/>
       </div>
       <Portifolio/>
       <Testimony/>
