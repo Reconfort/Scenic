@@ -1,5 +1,5 @@
 import React from 'react'
-import Mbwira from '../Components/Buttons/Mbwira'
+// import Mbwira from '../Components/Buttons/Mbwira'
 import Creative from '../Components/Creative'
 import Process from '../Section/Process'
 import WhyChooseUs from '../Components/WhyChooseUs'
@@ -23,7 +23,7 @@ const Welcome = () => {
         xl:text-8xl xl:w-2/3'>Our services</h1>
         <p className='text-slate-400 mt-5'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic illo rerum libero ullam autem! Harum a consectetur, voluptatem sunt unde error magni dolorum fugit ipsum sapiente soluta et, voluptatibus non.</p>
         <button className="my-10"><NextButton/></button>
-        <Mbwira/>
+//         <Mbwira/>
         </div>
         <Creative/>
         <Process/>
