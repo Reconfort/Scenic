@@ -1,5 +1,5 @@
 import React from 'react'
-import Mbwira from '../Components/Buttons/Mbwira'
+// import Mbwira from '../Components/Buttons/Mbwira'
 import CompanyDetails from '../Section/CompanyDetails'
 import Team from '../Section/Team'
 import Goals from '../Section/Goals'
@@ -23,7 +23,7 @@ const Company = () => {
         xl:text-8xl xl:w-2/3'>Explore more about us</h1>
         <p className='text-slate-400 mt-5'>Welcome to scenic Official portifolio</p>
         <button className="my-10"><NextButton/></button>
-        <Mbwira/>
+//         <Mbwira/>
         </div>
         <CompanyDetails/>
         <Team/>
