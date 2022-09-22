@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.HomewelcomeBg{
+    background-image: url('../src/Asset/Background.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.infoWelcome{
+    text-shadow: 5px 5px 10px forestgreen;
+}
+.ReasonBg{
+    background-image: url('../src/Asset/ReasonBg.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.TestimonyBg{
+    background-image: url('../src/Asset/BgContact.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.PagewelcomeBg{
+    background-image: url('../src/Asset/Background.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
