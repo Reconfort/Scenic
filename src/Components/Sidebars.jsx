@@ -20,7 +20,7 @@ const Sidebars = () => {
         }
       </button>
       {!hamburger &&
-        <div className="bg-slate-900 absolute h-screen w-screen left-0 top-0 z-10 flex justify-center items-center opacity-90 text-slate-300">
+        <div className="bg-slate-900/90 backdrop-blur-3xl absolute h-screen w-screen left-0 top-0 z-10 flex justify-center items-center text-slate-300">
           <ul className='flex flex-col gap-y-3 justify-center items-center'>
             <Link to="/" onClick={() => setHamburger(!hamburger)}className='hover:scale-150 hover:text-green-600 duration-1000 cursor-pointer'>Home</Link>
             <Link to="/Services" onClick={() => setHamburger(!hamburger)}className='hover:scale-150 hover:text-green-600 duration-1000 cursor-pointer'>Services</Link>
